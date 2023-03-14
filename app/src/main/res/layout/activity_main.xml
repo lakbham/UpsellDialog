@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible"
+    android:background="@drawable/border_layout">
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/alert"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/openAlertDialogButton"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#956499"
+        android:text="@string/want_to_upsell"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/thinking1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/thinking1"
+        android:textAlignment="center"></ImageView>
+
+    <TextView
+        android:id="@+id/selectedItemPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:textSize="22sp" />
+
+</LinearLayout>

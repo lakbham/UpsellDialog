@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaxExemptService</string>
+    <string name="want_to_upsell">Want to Upsell !</string>
+    <string name="custom_title_left">custom_title_left</string>
+    <string name="custom_title_left_button">custom_title_left_button</string>
+    <string name="custom_title_right">custom_title_right</string>
+    <string name="custom_title_right_button">custom_title_right_button</string>
+    <string name="alert">Alert!!</string>
+</resources>
